@@ -1,4 +1,4 @@
-# AmigurumiCraft - Encomendas Personalizadas de Amigurumis
+# Encomendas Personalizadas de Amigurumis
 
 ## Descrição do Projeto:
 O AmigurumiCraft é um projeto dedicado à criação e personalização de adoráveis Amigurumis artesanais, feitos à mão com carinho e atenção aos detalhes. Este repositório contém o código fonte e a lógica por trás de um formulário web que simplifica o processo de encomenda desses encantadores bonecos de crochê.
