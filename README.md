@@ -27,7 +27,7 @@ Criação do ecommerce de adoráveis Amigurumis artesanais, feitos à mão com c
   
 ### Testes e Validação:
 
-- Certifique-se de testar o formulário para garantir uma experiência do usuário fluida e livre de erros.
+- Certifique de testar o formulário para garantir uma experiência do usuário fluida e livre de erros.
   
 ## Contribuições:
 Contribuições são bem-vindas! Se você tem ideias para melhorar a interface do usuário, adicionar recursos adicionais ou otimizar o código, sinta-se à vontade para enviar um pull request.
