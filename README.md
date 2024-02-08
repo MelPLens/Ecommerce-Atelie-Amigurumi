@@ -1,5 +1,8 @@
 # Ecommerce Amigurumis
 
+## Status do Projeto:
+Em Andamento
+
 ## Descrição do Projeto:
 Criação do ecommerce de adoráveis Amigurumis artesanais, feitos à mão com carinho e atenção aos detalhes. Este repositório contém o código fonte e a lógica que simplifica o processo de encomenda desses encantadores bonecos de crochê.
 
