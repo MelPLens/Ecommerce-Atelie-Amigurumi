@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <title>Atelie Amigurumi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            text-decoration: none;
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            /* Reduzindo o tamanho da fonte geral */
+        }
+
+        .lobster-two-regular {
+            font-family: "Lobster Two", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .lobster-two-bold {
+            font-family: "Lobster Two", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .lobster-two-regular-italic {
+            font-family: "Lobster Two", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .lobster-two-bold-italic {
+            font-family: "Lobster Two", sans-serif;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        .Titulo_loja {
+            font-family: "Lobster Two", sans-serif;
+            font-size: 30px;
+            /* Reduzindo o tamanho do título */
+            font-weight: 400;
+        }
+
+        .Quem_e_rose {
+            font-family: "Lobster Two", sans-serif;
+            font-size: 30px;
+            /* Reduzindo o tamanho do título */
+            font-weight: 400;
+        }
+
+
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            /* Alteração: display flex para alinhar os itens */
+            align-items: center;
+            /* Alteração: centralizar verticalmente */
+        }
+
+        header {
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+            /* Alteração: ajustar a largura do cabeçalho */
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .whatsapp {
+            color: green;
+        }
+
+        .accordion {
+            padding: 10px;
+        }
+
+        h1 {
+            padding: 10px;
+            font-size: 20px;
+            /* Reduzindo o tamanho dos títulos das seções */
+        }
+
+        .foto_perfil {
+            max-width: 200px;
+            border-radius: 180px;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            text-decoration: none;
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            /* Reduzindo o tamanho da fonte geral */
+        }
+
+        .card {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        /* Media queries */
+        @media only screen and (min-width: 768px) {
+            .card {
+                width: calc(50% - 20px);
+            }
+        }
+
+        p {
+            text-align: justify;
+            padding: 10px;
+            margin: 15px;
+            /* Ajustando o tamanho da fonte */
+            line-height: 1.6;
+            /* Espaçamento entre linhas */
+            color: #333;
+            /* Cor do texto */
+
+        }
+
+        strong {
+            color: #34898e;
+            /* Cor do texto em negrito */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="../images/identidadevisualrose.png" alt="Ilustracao Rosilene"
+                style="max-width: 100px; margin-right: 20px;">
+            <h1 class="Titulo_loja">Atelie Amigurumi</h1>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../assets/localização.html">Localização</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../assets/sobre.html">Sobre
+                            nós</a><!--Active para deixar o ative na pagina atual-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../assets/segurança.html">Segurança</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><br>
+
+    <div class="text-center">
+        <img class="foto_perfil" src="../images/fotorose.png" class="rounded" alt="...">
+    </div>
+    <h1 class="Quem_e_rose" style="text-align: center;">Quem é a Rose?</h1>
+    <p>
+        Ah, minha história é simples, mas cheia de <strong>amor e criatividade.</strong> Me chamo
+        <strong>Rosilene</strong>, mas pode me chamar de
+        Rose. Nasci em Mogi das Cruzes, onde cresci cercada pelo carinho e <strong>talento da minha mãe,
+            Matilde</strong>, que me
+        ensinou desde cedo o valor do artesanato e da costura.
+
+        Lembro-me vividamente dos dias em que eu e minha mãe passávamos horas juntas, tecendo tapetes de tricô e
+        crochê. Era um tempo precioso, onde aprendi não só as técnicas, mas também a <strong>importância de colocar amor
+            em cada ponto.</strong>
+
+        Mas foi em <strong>2017 que minha vida tomou um rumo diferente</strong>. Foi quando descobri os amigurumis,
+        esses
+        bonequinhos encantadores que podem ser feitos com crochê ou tricô. Fiquei maravilhada com a ideia de
+        criar pequenos seres cheios de personalidade e afeto.
+
+        <strong>Em 2020, minha neta querida, Mel Plens</strong>, me deu o empurrãozinho que eu precisava para levar meu
+        trabalho
+        além. Ela me ajudou a criar um perfil no Instagram, onde pude compartilhar minhas criações com o mundo.
+        E não é que deu certo? As encomendas começaram a chegar, e eu me senti imensamente grata por poder
+        compartilhar meu trabalho com tantas pessoas.
+
+        E então, <strong>em 2022, dei mais um passo corajoso. Comecei a frequentar a feira de artesanatos na pista de
+            caminhada no Campolim de Sorocaba aos domingos</strong>. Foi lá que encontrei uma verdadeira comunidade de
+        artistas e
+        artesãos, todos compartilhando suas paixões e inspirações.
+
+        Hoje, continuo minha jornada, tecendo cada peça com amor e dedicação, sempre lembrando dos ensinamentos
+        da minha mãe e do apoio incansável da minha neta.
+    </p>
+
+    <div class="text-center">
+        <img style="border-radius: 1950px;" class="foto_perfil" src="../images/Foto de perfil Mel.png" class="rounded" alt="...">
+    </div>
+    <h1 class="Quem_e_rose" style="text-align: center;">Quem é a Mel?</h1>
+    <p>Sou a Neta de Rose, incentivando e auxiliando nos processos de encomendas e atendimento aos clientes!
+
+    </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
